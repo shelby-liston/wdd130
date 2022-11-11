@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Unica+One&display=swap');
 
+/* home page css */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -198,10 +199,51 @@ main section img {
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-
+/* faq page css */
+header {
+    background-color: #88c7db;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    color: black;
+    padding: 100px 90px;
+    font-size: .8em;
+    
+}
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#banner-img {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#banner-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.faq-title {
+    color: white;
+    font-family: Unica One, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-top: 200px;
+    text-align: center;
+}
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+     #hero, .home-grid {
         display: block;
         height: auto;
     }
