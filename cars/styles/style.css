@@ -210,3 +210,52 @@ main section img {
 .closebtn:hover {
     color: #000;
 }
+
+/* saving money css */
+.save-gas {
+    font-family: Unica One, Helvetica, sans-serif;
+    font-size: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+.graph {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -20px;
+    display: block;
+    height: auto;
+}
+.container {
+    position: relative;
+    width: 100%;
+}
+  
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #86c6fd;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    height: 100%;
+}
+  
+.text {
+    color: black;
+    font-family: Unica One, Helvetica, sans-serif; 
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
