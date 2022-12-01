@@ -98,7 +98,7 @@ footer a:hover {
 }
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     margin-top: -100px;
 }
 #hero-img {
@@ -164,7 +164,7 @@ main section img {
     grid-row: 2/3;
     margin-left: 700px;
     margin-top: -400px;
-    padding-right: 50px;
+    padding-right: 60px;
     padding-bottom: 100px;
     width: 46%;
 }
@@ -176,4 +176,37 @@ main section img {
     padding-right: 650px;
     padding-left: 50px;
     margin-top: 100px;
+}
+.chip {
+    display: inline-block;
+    text-align: left;
+    padding: 0 25px;
+    height: 50px;
+    font-family: Unica One, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+  
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+.closebtn:hover {
+    color: #000;
 }
