@@ -259,3 +259,31 @@ main section img {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/* driving efficiently faq css */
+.kid-friendly {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fav-car-img {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    margin-left: 530px;
+    padding-right: 60px;
+}
+.fav-car p {
+    font-family: Unica One, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: left;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-right: 50px;
+    padding-right: 700px;
+    padding-left: 40px;
+    margin-top: -340px;
+}
+.cost p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+}
